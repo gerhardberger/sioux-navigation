@@ -1,0 +1,21 @@
+{
+    "name": "sioux-ui-navigation",
+    "version": "0.0.1",
+    "description": "Navigation for sioux",
+    "main": "index.js",
+    "dependencies": {
+        "sioux-segue": "*"
+    },
+    "styles": [ "style.css" ],
+    "keywords": ["sioux", "ui", "navigation", "push", "pop", "bar"],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/gerhardberger/sioux-navigation.git"
+    },
+    "homepage": "https://github.com/gerhardberger/sioux-navigation",
+    "author": {
+        "name": "Gerhard Berger",
+        "email": "93.morph@gmail.com",
+        "url": "https://twitter.com/gerhard_berger"
+    }
+}

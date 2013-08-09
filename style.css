@@ -1,0 +1,52 @@
+div[data-navigation="bar"] {
+	display: table;
+	height: 12%;
+	width: 100%;
+	background: #999;
+	color: whitesmoke;
+}
+
+div[data-navigation="bar"] div[data-navigation="bar-title"] {
+	display: table-cell;
+	width: 60%;
+	vertical-align: middle;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+div[data-navigation="bar"] div[data-navigation="bar-back"] {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+div[data-navigation="bar"] div[data-navigation="bar-back"] button {
+	box-shadow: none;
+	font-family: Arial, sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	color: whitesmoke;
+	background-color: transparent;
+	padding: 10px 14px 0;
+	margin-left: 12px;
+	opacity: 0;
+	-webkit-transition: opacity .2s ease-in-out;
+}
+
+div[data-navigation="bar"] div[data-navigation="bar-back"], div[data-navigation="bar"] div[data-navigation="bar-next"] {
+	width: 20%;
+}
+
+div[data-navigation="content"] {
+	position: relative;
+	height: 88%;
+}
+
+div[data-navigation="bar"] {
+	-webkit-transition: -webkit-transform .3s ease-in-out;
+	-webkit-transform: translate3d(0,0,0);
+}
+
+.ui-window.segue, .ui-window.push {
+	height: 100%;
+}
