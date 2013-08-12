@@ -1,5 +1,7 @@
 # sioux Navigation
 
+More info from sioux: [gerhardberger.github.io/sioux/](http://gerhardberger.github.io/sioux/)
+
 ``` batch
 npm install sioux-navigation
 ```
